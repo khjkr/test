@@ -1,5 +1,10 @@
-const sayHi = (name) => {
-  console.log(`Hello ${name}`)
+const sayHi = (Human) => {
+  console.log(`Hello ${Human.name}, age: ${Human.age}`)
 }
 
-sayHi('Hyunjun')
+const Human = {
+  name: 'Hyunjun',
+  age: 16
+}
+
+sayHi(Human)
