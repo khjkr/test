@@ -2,4 +2,6 @@ const sayHi = (name) => {
   console.log(`Hello ${name}`)
 }
 
-sayHi('Hyunjun')
+const name = 'Hyunjun'
+
+sayHi(name)
