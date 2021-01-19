@@ -4,7 +4,7 @@ const sayHi = (Human) => {
 
 const Human = {
   name: 'Hyunjun',
-  age: 16
+  age: 17
 }
 
 sayHi(Human)
